@@ -1,8 +1,20 @@
 button {
     color: blanchedalmond;
     background-color: chocolate;
+    transition: background-color 0.5s, color 0.5s;
     border-color: chocolate;
+    border-radius: 10px;
+    font-size: 16px;
     position: absolute;
+}
+
+button:hover {
+    color: chocolate;
+    background-color: blanchedalmond;
+}
+
+#score {
+    font-weight: 800;
 }
 
 body {
